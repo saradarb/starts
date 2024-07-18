@@ -1,9 +1,9 @@
-console.log("Hello");
-console.log("I like pizza");
+//start from here
 
+let fullname = "Sara Darb"
+let age = 25;
+let student = true;
 
-//window.alert("this is an alert");
-//window.alert("I like Pizza");
-
-document.getElementById("myH1").textContent = "Hello";
-document.getElementById("myP").textContent = "I like Pizza!";
+document.getElementById("p1").textContent = ` your name is ${fullname}`;
+document.getElementById("p2").textContent = `your age is ${age}`;
+document.getElementById("p3").textContent = `are your enrolled ${student}`;
